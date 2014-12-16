@@ -76,7 +76,7 @@ public class ContactMe extends Activity {
 				.fromHtml("Email : \n\n"
 						+ "<a href=\"mailto:jagdeepmatharu@gmail.com\">Jagdeep Matharu</a>"));
 		email.setMovementMethod(LinkMovementMethod.getInstance());
-		
+
 		Button bBack = (Button) findViewById(R.id.dummy_button);
 		bBack.setOnClickListener(new View.OnClickListener() {
 
@@ -150,8 +150,8 @@ public class ContactMe extends Activity {
 		// Upon interacting with UI controls, delay any scheduled hide()
 		// operations to prevent the jarring behavior of controls going away
 		// while interacting with the UI.
-	//	findViewById(R.id.dummy_button).setOnTouchListener(
-		//		mDelayHideTouchListener);
+		// findViewById(R.id.dummy_button).setOnTouchListener(
+		// mDelayHideTouchListener);
 	}
 
 	@Override
@@ -170,7 +170,8 @@ public class ContactMe extends Activity {
 	 * while interacting with activity UI.
 	 */
 	View.OnTouchListener mDelayHideTouchListener = new View.OnTouchListener() {
-		@SuppressLint("ClickableViewAccessibility") @Override
+		@SuppressLint("ClickableViewAccessibility")
+		@Override
 		public boolean onTouch(View view, MotionEvent motionEvent) {
 			if (AUTO_HIDE) {
 				delayedHide(AUTO_HIDE_DELAY_MILLIS);
@@ -194,5 +195,13 @@ public class ContactMe extends Activity {
 	private void delayedHide(int delayMillis) {
 		mHideHandler.removeCallbacks(mHideRunnable);
 		mHideHandler.postDelayed(mHideRunnable, delayMillis);
+	}
+
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		Intent activityIntent = new Intent(ContactMe.this, IndexPage.class);
+		ContactMe.this.startActivity(activityIntent);
+		finish();
 	}
 }

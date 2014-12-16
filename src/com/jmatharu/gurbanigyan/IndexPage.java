@@ -22,7 +22,7 @@ public class IndexPage extends Activity {
 				Intent activityIntent = new Intent(IndexPage.this,
 						MainActivity.class);
 				IndexPage.this.startActivity(activityIntent);
-				finish();
+				//finish();
 			}
 		});
 

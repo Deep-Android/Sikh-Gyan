@@ -9,7 +9,6 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.google.android.youtube.player.YouTubePlayerView;
-import com.jmatharu.gurbanigyan.IndexPage;
 import com.jmatharu.gurbanigyan.R;
 import com.jmatharu.gurbanigyan.YoutubeList;
 
@@ -46,7 +45,7 @@ public class Youtube1 extends YouTubeBaseActivity implements
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
 		Intent activityIntent = new Intent(Youtube1.this,
-				IndexPage.class);
+				YoutubeList.class);
 		Youtube1.this.startActivity(activityIntent);
 		finish();
 	}

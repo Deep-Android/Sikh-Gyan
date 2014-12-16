@@ -198,5 +198,13 @@ public class YoutubeList extends Activity {
 			}
 		});
 	}
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		Intent activityIntent = new Intent(YoutubeList.this,
+				IndexPage.class);
+		YoutubeList.this.startActivity(activityIntent);
+		finish();
+	}
 
 }

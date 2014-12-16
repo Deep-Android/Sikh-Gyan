@@ -9,8 +9,8 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.google.android.youtube.player.YouTubePlayerView;
-import com.jmatharu.gurbanigyan.IndexPage;
 import com.jmatharu.gurbanigyan.R;
+import com.jmatharu.gurbanigyan.YoutubeList;
 
 public class Youtube11 extends YouTubeBaseActivity implements
 		YouTubePlayer.OnInitializedListener {
@@ -43,7 +43,7 @@ public class Youtube11 extends YouTubeBaseActivity implements
 	@Override
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
-		Intent activityIntent = new Intent(Youtube11.this, IndexPage.class);
+		Intent activityIntent = new Intent(Youtube11.this, YoutubeList.class);
 		Youtube11.this.startActivity(activityIntent);
 		finish();
 	}
