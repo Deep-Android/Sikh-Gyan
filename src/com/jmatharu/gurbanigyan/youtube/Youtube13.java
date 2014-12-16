@@ -13,7 +13,7 @@ import com.jmatharu.gurbanigyan.R;
 public class Youtube13 extends YouTubeBaseActivity implements
 		YouTubePlayer.OnInitializedListener {
 	static private final String DEVELOPER_KEY = "AIzaSyAtqdhiy9NVwbw1rEN5DKRS5m7NK6ziO70";
-	static private final String VIDEO = "";
+	static private final String VIDEO = "U6vI7ukGoaI";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
