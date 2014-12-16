@@ -96,11 +96,14 @@
     <string name="title_activity_youtube6">Mool Mantar</string>
     <string name="title_activity_youtube7">Benti Chaupai Sahib</string>
     <string name="title_activity_youtube8">Sikhism spirituality</string>
-    <string name="title_activity_youtube9">Don't Freak, I'm Sikh</string>
+    <string name="title_activity_youtube9">Don\'t Freak, I\'m Sikh</string>
     <string name="title_activity_youtube10">Mullah Khatri</string>
     <string name="title_activity_youtube11">The Sikh Next Door</string>
     <string name="title_activity_youtube12">Anmol Bachan</string>
     <string name="title_activity_youtube13">Sikh Women in Panth</string>
     <string name="title_activity_youtube14">Saare Japo Waheguru!</string>
+    <string name="title_activity_contact_me">ContactMe</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>

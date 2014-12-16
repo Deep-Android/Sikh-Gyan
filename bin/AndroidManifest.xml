@@ -94,12 +94,18 @@
             android:label="@string/title_activity_youtube12" >
         </activity>
         <activity
-            android:name="com.jmatharu.gurbanigyan.youtube.Youtube13"
+            android:name=".youtube.Youtube13"
             android:label="@string/title_activity_youtube13" >
         </activity>
         <activity
-            android:name="com.jmatharu.gurbanigyan.youtube.Youtube14"
+            android:name=".youtube.Youtube14"
             android:label="@string/title_activity_youtube14" >
+        </activity>
+        <activity
+            android:name=".ContactMe"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_contact_me"
+            android:theme="@style/FullscreenTheme" >
         </activity>
     </application>
 
