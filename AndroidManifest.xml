@@ -86,8 +86,12 @@
             android:label="@string/title_activity_youtube11" >
         </activity>
         <activity
-            android:name="com.jmatharu.gurbanigyan.youtube.Youtube10"
+            android:name=".youtube.Youtube10"
             android:label="@string/title_activity_youtube10" >
+        </activity>
+        <activity
+            android:name="com.jmatharu.gurbanigyan.youtube.Youtube12"
+            android:label="@string/title_activity_youtube12" >
         </activity>
     </application>
 

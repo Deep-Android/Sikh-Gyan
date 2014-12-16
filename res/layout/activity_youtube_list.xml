@@ -107,6 +107,30 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="The Sikh Next Door" />
+
+            <Button
+                android:id="@+id/buttonYou12"
+                style="@style/btnStyleOrange"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Anmol Bachan" />
+
+            <Button
+                android:id="@+id/buttonYou13"
+                style="@style/btnStyleOrange"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Sikh Women in Panth" />
+
+            <Button
+                android:id="@+id/buttonYou14"
+                style="@style/btnStyleOrange"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Saare Japo Waheguru!" />
         </LinearLayout>
     </ScrollView>
 
