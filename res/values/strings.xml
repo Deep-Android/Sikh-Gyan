@@ -87,20 +87,20 @@
     <string name="title_activity_splash">Sikh Gyan</string>
     <string name="title_activity_index_page">Sikh Gyan</string>
     <string name="title_activity_youtube_list">Sikh Gyan</string>
-    <string name="title_activity_youtube1">Sikh Gyan</string>
+    <string name="title_activity_youtube1">Life Story of Guru Nanak dev Ji</string>
     <string name="dot">.</string>
-    <string name="title_activity_youtube2">Youtube2</string>
-    <string name="title_activity_youtube3">Youtube3</string>
-    <string name="title_activity_youtube4">Youtube4</string>
-    <string name="title_activity_youtube5">Youtube5</string>
-    <string name="title_activity_youtube6">Youtube6</string>
-    <string name="title_activity_youtube7">Youtube7</string>
-    <string name="title_activity_youtube8">Youtube8</string>
-    <string name="title_activity_youtube9">Youtube9</string>
-    <string name="title_activity_youtube10">Youtube10</string>
-    <string name="title_activity_youtube11">Youtube11</string>
-    <string name="title_activity_youtube12">Youtube12</string>
-    <string name="title_activity_youtube13">Youtube13</string>
-    <string name="title_activity_youtube14">Youtube14</string>
+    <string name="title_activity_youtube2">Life Story of Guru Gobind Singh Ji</string>
+    <string name="title_activity_youtube3">Life Story of Shri Guru Amardas Ji</string>
+    <string name="title_activity_youtube4">Life Story of Guru Angad Dev Ji</string>
+    <string name="title_activity_youtube5">Sri Guru Ram Das Ji</string>
+    <string name="title_activity_youtube6">Mool Mantar</string>
+    <string name="title_activity_youtube7">Benti Chaupai Sahib</string>
+    <string name="title_activity_youtube8">Sikhism spirituality</string>
+    <string name="title_activity_youtube9">Don't Freak, I'm Sikh</string>
+    <string name="title_activity_youtube10">Mullah Khatri</string>
+    <string name="title_activity_youtube11">The Sikh Next Door</string>
+    <string name="title_activity_youtube12">Anmol Bachan</string>
+    <string name="title_activity_youtube13">Sikh Women in Panth</string>
+    <string name="title_activity_youtube14">Saare Japo Waheguru!</string>
 
 </resources>

@@ -9,6 +9,9 @@ import android.widget.Button;
 import com.jmatharu.gurbanigyan.youtube.Youtube1;
 import com.jmatharu.gurbanigyan.youtube.Youtube10;
 import com.jmatharu.gurbanigyan.youtube.Youtube11;
+import com.jmatharu.gurbanigyan.youtube.Youtube12;
+import com.jmatharu.gurbanigyan.youtube.Youtube13;
+import com.jmatharu.gurbanigyan.youtube.Youtube14;
 import com.jmatharu.gurbanigyan.youtube.Youtube2;
 import com.jmatharu.gurbanigyan.youtube.Youtube3;
 import com.jmatharu.gurbanigyan.youtube.Youtube4;
@@ -144,6 +147,39 @@ public class YoutubeList extends Activity {
 				// TODO Auto-generated method stub
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube11.class);
+				YoutubeList.this.startActivity(activityIntent);
+			}
+		});
+		Button bYouube12 = (Button) findViewById(R.id.buttonYou12);
+		bYouube12.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(YoutubeList.this,
+						Youtube12.class);
+				YoutubeList.this.startActivity(activityIntent);
+			}
+		});
+		Button bYouube13 = (Button) findViewById(R.id.buttonYou13);
+		bYouube13.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(YoutubeList.this,
+						Youtube13.class);
+				YoutubeList.this.startActivity(activityIntent);
+			}
+		});
+		Button bYouube14 = (Button) findViewById(R.id.buttonYou14);
+		bYouube14.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(YoutubeList.this,
+						Youtube14.class);
 				YoutubeList.this.startActivity(activityIntent);
 			}
 		});
