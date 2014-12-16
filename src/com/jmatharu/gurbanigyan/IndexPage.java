@@ -3,7 +3,6 @@ package com.jmatharu.gurbanigyan;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -23,6 +22,7 @@ public class IndexPage extends Activity {
 				Intent activityIntent = new Intent(IndexPage.this,
 						MainActivity.class);
 				IndexPage.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 
@@ -35,20 +35,21 @@ public class IndexPage extends Activity {
 				Intent activityIntent = new Intent(IndexPage.this,
 						YoutubeList.class);
 				IndexPage.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bContact = (Button) findViewById(R.id.button3);
 		bContact.setOnClickListener(new View.OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent activityIntent = new Intent(IndexPage.this,
 						ContactMe.class);
 				IndexPage.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 	}
 
-	
 }

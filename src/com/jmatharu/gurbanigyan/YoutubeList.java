@@ -37,6 +37,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube1.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 
@@ -49,6 +50,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube2.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube3 = (Button) findViewById(R.id.buttonYou3);
@@ -60,6 +62,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube3.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube4 = (Button) findViewById(R.id.buttonYou4);
@@ -71,6 +74,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube4.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube5 = (Button) findViewById(R.id.buttonYou5);
@@ -82,6 +86,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube5.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube6 = (Button) findViewById(R.id.buttonYou6);
@@ -93,6 +98,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube6.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube7 = (Button) findViewById(R.id.buttonYou7);
@@ -104,6 +110,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube7.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube8 = (Button) findViewById(R.id.buttonYou8);
@@ -115,6 +122,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube8.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube9 = (Button) findViewById(R.id.buttonYou9);
@@ -126,6 +134,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube9.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube10 = (Button) findViewById(R.id.buttonYou10);
@@ -137,6 +146,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube10.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube11 = (Button) findViewById(R.id.buttonYou11);
@@ -148,6 +158,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube11.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube12 = (Button) findViewById(R.id.buttonYou12);
@@ -159,6 +170,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube12.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube13 = (Button) findViewById(R.id.buttonYou13);
@@ -170,6 +182,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube13.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 		Button bYouube14 = (Button) findViewById(R.id.buttonYou14);
@@ -181,6 +194,7 @@ public class YoutubeList extends Activity {
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube14.class);
 				YoutubeList.this.startActivity(activityIntent);
+				finish();
 			}
 		});
 	}

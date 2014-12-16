@@ -1,5 +1,6 @@
 package com.jmatharu.gurbanigyan.youtube;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
@@ -7,6 +8,7 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
+import com.jmatharu.gurbanigyan.IndexPage;
 import com.jmatharu.gurbanigyan.R;
 
 public class Youtube6 extends YouTubeBaseActivity implements
@@ -35,5 +37,14 @@ public class Youtube6 extends YouTubeBaseActivity implements
 			boolean arg2) {
 		// TODO Auto-generated method stub
 		arg1.loadVideo(VIDEO);
+	}
+	
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		Intent activityIntent = new Intent(Youtube6.this,
+				IndexPage.class);
+		Youtube6.this.startActivity(activityIntent);
+		finish();
 	}
 }

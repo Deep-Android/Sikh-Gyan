@@ -111,6 +111,7 @@ class MyAdapter extends FragmentStatePagerAdapter {
 		// TODO Auto-generated method stub
 		return 17;
 	}
+	
 
 	@Override
 	public CharSequence getPageTitle(int position) {
@@ -169,4 +170,5 @@ class MyAdapter extends FragmentStatePagerAdapter {
 		}
 		return null;
 	}
+	
 }

@@ -1,14 +1,20 @@
 package com.jmatharu.gurbanigyan;
 
-import com.jmatharu.gurbanigyan.util.SystemUiHider;
-
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.jmatharu.gurbanigyan.util.SystemUiHider;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -53,6 +59,36 @@ public class ContactMe extends Activity {
 
 		final View controlsView = findViewById(R.id.fullscreen_content_controls);
 		final View contentView = findViewById(R.id.fullscreen_content);
+
+		TextView link = (TextView) findViewById(R.id.tvlink);
+		link.setText(Html
+				.fromHtml("Linkedin : \n\n"
+						+ "<a href=\"http://www.linkedin.com/pub/jagdeep-matharu/74/ab7/156\">Jagdeep Matharu</a> "));
+		link.setMovementMethod(LinkMovementMethod.getInstance());
+
+		TextView web = (TextView) findViewById(R.id.tvWeb);
+		web.setText(Html.fromHtml("WebPage : \n\n"
+				+ "<a href=\"http://deep1407.github.io\">Jagdeep Matharu</a> "));
+		web.setMovementMethod(LinkMovementMethod.getInstance());
+
+		TextView email = (TextView) findViewById(R.id.tvEmail);
+		email.setText(Html
+				.fromHtml("Email : \n\n"
+						+ "<a href=\"mailto:jagdeepmatharu@gmail.com\">Jagdeep Matharu</a>"));
+		email.setMovementMethod(LinkMovementMethod.getInstance());
+		
+		Button bBack = (Button) findViewById(R.id.dummy_button);
+		bBack.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(ContactMe.this,
+						IndexPage.class);
+				ContactMe.this.startActivity(activityIntent);
+				finish();
+			}
+		});
 
 		// Set up an instance of SystemUiHider to control the system UI for
 		// this activity.
@@ -114,8 +150,8 @@ public class ContactMe extends Activity {
 		// Upon interacting with UI controls, delay any scheduled hide()
 		// operations to prevent the jarring behavior of controls going away
 		// while interacting with the UI.
-		findViewById(R.id.dummy_button).setOnTouchListener(
-				mDelayHideTouchListener);
+	//	findViewById(R.id.dummy_button).setOnTouchListener(
+		//		mDelayHideTouchListener);
 	}
 
 	@Override
@@ -134,7 +170,7 @@ public class ContactMe extends Activity {
 	 * while interacting with activity UI.
 	 */
 	View.OnTouchListener mDelayHideTouchListener = new View.OnTouchListener() {
-		@Override
+		@SuppressLint("ClickableViewAccessibility") @Override
 		public boolean onTouch(View view, MotionEvent motionEvent) {
 			if (AUTO_HIDE) {
 				delayedHide(AUTO_HIDE_DELAY_MILLIS);
