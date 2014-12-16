@@ -10,7 +10,7 @@ import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.google.android.youtube.player.YouTubePlayerView;
 import com.jmatharu.gurbanigyan.R;
 
-public class Youtube12 extends YouTubeBaseActivity implements
+public class Youtube14 extends YouTubeBaseActivity implements
 		YouTubePlayer.OnInitializedListener {
 	static private final String DEVELOPER_KEY = "AIzaSyAtqdhiy9NVwbw1rEN5DKRS5m7NK6ziO70";
 	static private final String VIDEO = "";
@@ -18,8 +18,8 @@ public class Youtube12 extends YouTubeBaseActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_youtube12);
-		YouTubePlayerView youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view12);
+		setContentView(R.layout.activity_youtube14);
+		YouTubePlayerView youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view14);
 		youTubeView.initialize(DEVELOPER_KEY, this);
 	}
 
