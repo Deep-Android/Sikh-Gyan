@@ -68,7 +68,7 @@ public class ContactMe extends Activity {
 
 		TextView web = (TextView) findViewById(R.id.tvWeb);
 		web.setText(Html.fromHtml("WebPage : \n\n"
-				+ "<a href=\"http://deep1407.github.io\">Jagdeep Matharu</a> "));
+				+ "<a href=\"http://jmatharu.github.io\">Jagdeep Matharu</a> "));
 		web.setMovementMethod(LinkMovementMethod.getInstance());
 
 		TextView email = (TextView) findViewById(R.id.tvEmail);

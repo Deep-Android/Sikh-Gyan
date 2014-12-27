@@ -86,10 +86,6 @@
             android:label="@string/title_activity_youtube11" >
         </activity>
         <activity
-            android:name=".youtube.Youtube10"
-            android:label="@string/title_activity_youtube10" >
-        </activity>
-        <activity
             android:name=".youtube.Youtube12"
             android:label="@string/title_activity_youtube12" >
         </activity>
@@ -106,6 +102,10 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_contact_me"
             android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".StoriesList"
+            android:label="@string/title_activity_stories_list" >
         </activity>
     </application>
 

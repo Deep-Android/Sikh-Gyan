@@ -154,21 +154,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int index_page=0x7f080001;
         public static final int main=0x7f080002;
         public static final int splash=0x7f080003;
-        public static final int youtube1=0x7f080004;
-        public static final int youtube10=0x7f080005;
-        public static final int youtube11=0x7f080006;
-        public static final int youtube12=0x7f080007;
-        public static final int youtube13=0x7f080008;
-        public static final int youtube14=0x7f080009;
-        public static final int youtube2=0x7f08000a;
-        public static final int youtube3=0x7f08000b;
-        public static final int youtube4=0x7f08000c;
-        public static final int youtube5=0x7f08000d;
-        public static final int youtube6=0x7f08000e;
-        public static final int youtube7=0x7f08000f;
-        public static final int youtube8=0x7f080010;
-        public static final int youtube9=0x7f080011;
-        public static final int youtube_list=0x7f080012;
+        public static final int stories_list=0x7f080004;
+        public static final int youtube1=0x7f080005;
+        public static final int youtube10=0x7f080006;
+        public static final int youtube11=0x7f080007;
+        public static final int youtube12=0x7f080008;
+        public static final int youtube13=0x7f080009;
+        public static final int youtube14=0x7f08000a;
+        public static final int youtube2=0x7f08000b;
+        public static final int youtube3=0x7f08000c;
+        public static final int youtube4=0x7f08000d;
+        public static final int youtube5=0x7f08000e;
+        public static final int youtube6=0x7f08000f;
+        public static final int youtube7=0x7f080010;
+        public static final int youtube8=0x7f080011;
+        public static final int youtube9=0x7f080012;
+        public static final int youtube_list=0x7f080013;
     }
     public static final class string {
         public static final int Katha101=0x7f06002a;
@@ -260,6 +261,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int title_activity_fragment_c=0x7f060052;
         public static final int title_activity_index_page=0x7f060054;
         public static final int title_activity_splash=0x7f060053;
+        public static final int title_activity_stories_list=0x7f060068;
         public static final int title_activity_youtube1=0x7f060056;
         public static final int title_activity_youtube10=0x7f060060;
         public static final int title_activity_youtube11=0x7f060061;
