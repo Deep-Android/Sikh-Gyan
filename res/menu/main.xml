@@ -5,7 +5,7 @@
         <item
         android:id="@+id/contact_me"
         android:orderInCategory="1"
-        android:showAsAction="always"
+        android:showAsAction="ifRoom|withText"
         android:title="@string/contact_us"/>
-
+        
 </menu>

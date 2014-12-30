@@ -36,7 +36,9 @@ public class YoutubeList extends Activity {
 				// TODO Auto-generated method stub
 				Intent activityIntent = new Intent(YoutubeList.this,
 						Youtube1.class);
+				activityIntent.putExtra("force_fullscreen", true);
 				YoutubeList.this.startActivity(activityIntent);
+				
 				finish();
 			}
 		});

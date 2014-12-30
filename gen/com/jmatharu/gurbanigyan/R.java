@@ -53,9 +53,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int panja1=0x7f02000e;
         public static final int panja2=0x7f02000f;
         public static final int prayer=0x7f020010;
-        public static final int sajjan=0x7f020011;
-        public static final int sri=0x7f020012;
-        public static final int sriharmandirsahib=0x7f020013;
+        public static final int red_button=0x7f020011;
+        public static final int sajjan=0x7f020012;
+        public static final int sri=0x7f020013;
+        public static final int sriharmandirsahib=0x7f020014;
     }
     public static final class id {
         public static final int ViewPagerActivity=0x7f090008;
@@ -307,10 +308,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int AppTheme=0x7f070001;
         public static final int ButtonBar=0x7f070005;
-        public static final int ButtonBarButton=0x7f070006;
-        public static final int FullscreenActionBarStyle=0x7f070007;
+        public static final int ButtonBarButton=0x7f070007;
+        public static final int FullscreenActionBarStyle=0x7f070008;
         public static final int FullscreenTheme=0x7f070004;
         public static final int btnStyleOrange=0x7f070003;
+        public static final int button_Red=0x7f070006;
         public static final int text_view2=0x7f070002;
     }
     public static final class styleable {

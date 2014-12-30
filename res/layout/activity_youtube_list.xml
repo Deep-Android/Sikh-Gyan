@@ -28,9 +28,12 @@
                 android:layout_marginTop="30dp"
                 android:text="Life Story of Guru Nanak dev Ji" />
 
+             <!-- style="@style/button_Red"
+                android:background="@drawable/red_button" -->
+                
             <Button
                 android:id="@+id/buttonYou2"
-                style="@style/btnStyleOrange"
+                 style="@style/btnStyleOrange"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"

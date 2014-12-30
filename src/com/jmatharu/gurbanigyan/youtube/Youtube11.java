@@ -38,6 +38,7 @@ public class Youtube11 extends YouTubeBaseActivity implements
 			boolean arg2) {
 		// TODO Auto-generated method stub
 		arg1.loadVideo(VIDEO);
+	
 	}
 
 	@Override
