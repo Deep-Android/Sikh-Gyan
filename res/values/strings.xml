@@ -108,5 +108,6 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_stories_list">StoriesList</string>
     <string name="title_activity_quiz">Sikh Gyan</string>
+    <string name="title_activity_read_gurbani_list">Sikh Gyan</string>
 
 </resources>

@@ -153,6 +153,10 @@
             android:name=".Quiz"
             android:label="@string/title_activity_quiz" >
         </activity>
+        <activity
+            android:name=".ReadGurbaniList"
+            android:label="@string/title_activity_read_gurbani_list" >
+        </activity>
     </application>
 
 </manifest>

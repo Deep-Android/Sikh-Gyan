@@ -40,5 +40,14 @@
         android:layout_below="@+id/button2"
         android:background="@drawable/red_button"
         android:text="Quiz" />
+    
+     <Button
+        android:id="@+id/button4"
+        style="@style/button_Red"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:background="@drawable/red_button"
+        android:text="Read Gurbani" />
 
 </RelativeLayout>

@@ -6,12 +6,21 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Quiz extends Activity {
+public class ReadGurbaniList extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_quiz);
+		setContentView(R.layout.activity_read_gurbani_list);
+	}
+
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		Intent activityIntent = new Intent(ReadGurbaniList.this,
+				IndexPage.class);
+		ReadGurbaniList.this.startActivity(activityIntent);
+		finish();
 	}
 
 	@Override
@@ -28,18 +37,11 @@ public class Quiz extends Activity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.contact_me) {
-			Intent activityIntent = new Intent(Quiz.this, ContactMe.class);
-			Quiz.this.startActivity(activityIntent);
+			Intent activityIntent = new Intent(ReadGurbaniList.this,
+					ContactMe.class);
+			ReadGurbaniList.this.startActivity(activityIntent);
 			finish();
 		}
 		return super.onOptionsItemSelected(item);
-	}
-
-	@Override
-	public void onBackPressed() {
-		// TODO Auto-generated method stub
-		Intent activityIntent = new Intent(Quiz.this, IndexPage.class);
-		Quiz.this.startActivity(activityIntent);
-		finish();
 	}
 }

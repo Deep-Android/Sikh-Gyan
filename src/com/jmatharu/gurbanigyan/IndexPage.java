@@ -52,6 +52,18 @@ public class IndexPage extends Activity {
 				finish();
 			}
 		});
+		Button bRead = (Button) findViewById(R.id.button4);
+		bRead.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(IndexPage.this,
+						ReadGurbaniList.class);
+				IndexPage.this.startActivity(activityIntent);
+				finish();
+			}
+		});
 
 	}
 
