@@ -6,20 +6,14 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 
 public class IndexPage extends Activity {
-	private View mView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_index_page);
-
-		
 
 		Button b = (Button) findViewById(R.id.button1);
 		b.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +36,18 @@ public class IndexPage extends Activity {
 				// TODO Auto-generated method stub
 				Intent activityIntent = new Intent(IndexPage.this,
 						YoutubeList.class);
+				IndexPage.this.startActivity(activityIntent);
+				finish();
+			}
+		});
+
+		Button bQuiz = (Button) findViewById(R.id.button3);
+		bQuiz.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(IndexPage.this, Quiz.class);
 				IndexPage.this.startActivity(activityIntent);
 				finish();
 			}

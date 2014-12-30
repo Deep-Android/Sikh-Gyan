@@ -9,9 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jmatharu.gurbanigyan.IndexPage" >
 
-    <!-- Use this in Button 1 to align button 1 to center
+    <!--
+         Use this in Button 1 to align button 1 to center
              android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" -->
+        android:layout_centerVertical="true"
+    -->
+
     <Button
         android:id="@+id/button1"
         style="@style/button_Red"
@@ -28,5 +31,14 @@
         android:layout_below="@+id/button1"
         android:background="@drawable/red_button"
         android:text="Videos" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/button_Red"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:background="@drawable/red_button"
+        android:text="Quiz" />
 
 </RelativeLayout>

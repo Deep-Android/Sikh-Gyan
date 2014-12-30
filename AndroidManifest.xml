@@ -49,95 +49,95 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube2"
-            android:label="@string/title_activity_youtube2" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube2"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube3"
-            android:label="@string/title_activity_youtube3" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube3"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube4"
-            android:label="@string/title_activity_youtube4" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube4"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube5"
-            android:label="@string/title_activity_youtube5" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube5"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube6"
-            android:label="@string/title_activity_youtube6" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube6"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube7"
-            android:label="@string/title_activity_youtube7" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube7"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube8"
-            android:label="@string/title_activity_youtube8" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube8"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube9"
-            android:label="@string/title_activity_youtube9" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube9"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube10"
-            android:label="@string/title_activity_youtube10" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube10"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube11"
-            android:label="@string/title_activity_youtube11" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube11"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube12"
-            android:label="@string/title_activity_youtube12" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube12"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube13"
-            android:label="@string/title_activity_youtube13" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube13"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name=".youtube.Youtube14"
-            android:label="@string/title_activity_youtube14" >
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube14"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
             android:name=".ContactMe"
@@ -148,6 +148,10 @@
         <activity
             android:name=".StoriesList"
             android:label="@string/title_activity_stories_list" >
+        </activity>
+        <activity
+            android:name=".Quiz"
+            android:label="@string/title_activity_quiz" >
         </activity>
     </application>
 
