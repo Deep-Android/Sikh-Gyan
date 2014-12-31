@@ -25,7 +25,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:text="Japji Sahib" />
 
             <Button
@@ -34,7 +34,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:text="Jaap Sahib" />
 
             <Button
@@ -43,7 +43,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:text="Tav Prasad Savaiye" />
 
             <Button
@@ -52,7 +52,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:text="Benti Choupai" />
 
             <Button
@@ -61,7 +61,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:text="Anand Sahib" />
 
             <Button
@@ -70,7 +70,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:text="Rehras Sahib" />
 
             <Button
@@ -79,7 +79,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:text="Kirtan Sohila" />
         </LinearLayout>
     </ScrollView>

@@ -16,7 +16,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name=".MainActivity"
+            android:name=".FragmentList"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -140,6 +140,13 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
+            android:name=".youtube.Youtube15"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_youtube15"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
             android:name=".ContactMe"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_contact_me"
@@ -156,6 +163,19 @@
         <activity
             android:name=".ReadGurbaniList"
             android:label="@string/title_activity_read_gurbani_list" >
+        </activity>
+        <activity
+            android:name=".readGurbani.JapjiSahibFragment1"
+            android:label="@string/title_activity_japji_sahib_fragment1" >
+        </activity>
+        <activity
+            android:name=".JapjiSahib"
+            android:label="@string/title_activity_japji_sahib" >
+        </activity>
+        <activity
+            android:name="com.jmatharu.gurbanigyan.readGurbani.JapjiSahib1"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:label="@string/title_activity_japji_sahib1" >
         </activity>
     </application>
 

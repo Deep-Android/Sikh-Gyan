@@ -109,5 +109,9 @@
     <string name="title_activity_stories_list">StoriesList</string>
     <string name="title_activity_quiz">Sikh Gyan</string>
     <string name="title_activity_read_gurbani_list">Sikh Gyan</string>
+    <string name="title_activity_youtube15">Sikh Gyan</string>
+    <string name="title_activity_japji_sahib1">Sikh Gyan</string>
+    <string name="title_activity_japji_sahib_fragment1">JapjiSahibFragment1</string>
+    <string name="title_activity_japji_sahib">Sikh Gyan</string>
 
 </resources>

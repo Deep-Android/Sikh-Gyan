@@ -22,7 +22,7 @@ public class IndexPage extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent activityIntent = new Intent(IndexPage.this,
-						MainActivity.class);
+						FragmentList.class);
 				IndexPage.this.startActivity(activityIntent);
 				// finish();
 			}

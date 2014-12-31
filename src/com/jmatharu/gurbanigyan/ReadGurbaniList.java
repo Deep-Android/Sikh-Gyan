@@ -5,6 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+
+import com.jmatharu.gurbanigyan.readGurbani.JapjiSahib1;
 
 public class ReadGurbaniList extends Activity {
 
@@ -12,6 +16,19 @@ public class ReadGurbaniList extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_read_gurbani_list);
+		
+		Button bRead1 = (Button) findViewById(R.id.bReadJapjiSahib);
+		bRead1.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(ReadGurbaniList.this,
+						JapjiSahib1.class);
+				ReadGurbaniList.this.startActivity(activityIntent);
+				finish();
+			}
+		});
 	}
 
 	@Override
