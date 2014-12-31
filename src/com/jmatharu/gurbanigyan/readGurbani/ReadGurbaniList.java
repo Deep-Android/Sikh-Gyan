@@ -1,4 +1,4 @@
-package com.jmatharu.gurbanigyan;
+package com.jmatharu.gurbanigyan.readGurbani;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,7 +8,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.jmatharu.gurbanigyan.readGurbani.JapjiSahib1;
+import com.jmatharu.gurbanigyan.ContactMe;
+import com.jmatharu.gurbanigyan.IndexPage;
+import com.jmatharu.gurbanigyan.R;
 
 public class ReadGurbaniList extends Activity {
 
@@ -25,6 +27,19 @@ public class ReadGurbaniList extends Activity {
 				// TODO Auto-generated method stub
 				Intent activityIntent = new Intent(ReadGurbaniList.this,
 						JapjiSahib1.class);
+				ReadGurbaniList.this.startActivity(activityIntent);
+				finish();
+			}
+		});
+		
+		Button bRead3 = (Button) findViewById(R.id.bReadTavPrasadSavaiye);
+		bRead3.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(ReadGurbaniList.this,
+						TavPrasadSavaiye.class);
 				ReadGurbaniList.this.startActivity(activityIntent);
 				finish();
 			}

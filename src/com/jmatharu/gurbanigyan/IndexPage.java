@@ -1,5 +1,7 @@
 package com.jmatharu.gurbanigyan;
 
+import com.jmatharu.gurbanigyan.readGurbani.ReadGurbaniList;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

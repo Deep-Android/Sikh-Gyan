@@ -113,5 +113,7 @@
     <string name="title_activity_japji_sahib1">Sikh Gyan</string>
     <string name="title_activity_japji_sahib_fragment1">JapjiSahibFragment1</string>
     <string name="title_activity_japji_sahib">Sikh Gyan</string>
+    <string name="title_activity_jaap_sahib">Sikh Gyan</string>
+    <string name="title_activity_tav_prasad_savaiye">Sikh Gyan</string>
 
 </resources>

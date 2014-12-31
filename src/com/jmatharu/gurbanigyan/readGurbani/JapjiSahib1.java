@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.jmatharu.gurbanigyan.R;
-import com.jmatharu.gurbanigyan.ReadGurbaniList;
 
 public class JapjiSahib1 extends Activity {
 	int counter = 0;
