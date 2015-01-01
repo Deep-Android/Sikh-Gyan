@@ -179,12 +179,16 @@
         </activity>
         <activity
             android:name=".readGurbani.JaapSahib"
-            android:label="@string/title_activity_jaap_sahib"
-             >
+            android:label="@string/title_activity_jaap_sahib" >
         </activity>
         <activity
-            android:name="com.jmatharu.gurbanigyan.readGurbani.TavPrasadSavaiye"
+            android:name=".readGurbani.TavPrasadSavaiye"
             android:label="@string/title_activity_tav_prasad_savaiye"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.jmatharu.gurbanigyan.readGurbani.KirtanSohila"
+            android:label="@string/title_activity_kirtan_sohila"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
         </activity>
     </application>
