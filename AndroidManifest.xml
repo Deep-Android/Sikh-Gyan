@@ -179,7 +179,8 @@
         </activity>
         <activity
             android:name=".readGurbani.JaapSahib"
-            android:label="@string/title_activity_jaap_sahib" >
+            android:label="@string/title_activity_jaap_sahib"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
         </activity>
         <activity
             android:name=".readGurbani.TavPrasadSavaiye"
@@ -187,8 +188,13 @@
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
         </activity>
         <activity
-            android:name="com.jmatharu.gurbanigyan.readGurbani.KirtanSohila"
+            android:name=".readGurbani.KirtanSohila"
             android:label="@string/title_activity_kirtan_sohila"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.jmatharu.gurbanigyan.readGurbani.BentiChoupai"
+            android:label="@string/title_activity_benti_choupai"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
         </activity>
     </application>

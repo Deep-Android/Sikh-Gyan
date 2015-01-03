@@ -57,6 +57,18 @@ public class ReadGurbaniList extends Activity {
 				finish();
 			}
 		});
+		Button bRead4 = (Button) findViewById(R.id.bBentiChoupai);
+		bRead4.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(ReadGurbaniList.this,
+						BentiChoupai.class);
+				ReadGurbaniList.this.startActivity(activityIntent);
+				finish();
+			}
+		});
 	}
 
 	@Override
