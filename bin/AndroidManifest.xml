@@ -193,8 +193,13 @@
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
         </activity>
         <activity
-            android:name="com.jmatharu.gurbanigyan.readGurbani.BentiChoupai"
+            android:name=".readGurbani.BentiChoupai"
             android:label="@string/title_activity_benti_choupai"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.jmatharu.gurbanigyan.readGurbani.AnandSahib"
+            android:label="@string/title_activity_anand_sahib"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
         </activity>
     </application>

@@ -69,6 +69,18 @@ public class ReadGurbaniList extends Activity {
 				finish();
 			}
 		});
+		Button bRead5 = (Button) findViewById(R.id.bAnandSahib);
+		bRead5.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(ReadGurbaniList.this,
+						AnandSahib.class);
+				ReadGurbaniList.this.startActivity(activityIntent);
+				finish();
+			}
+		});
 	}
 
 	@Override
