@@ -22,7 +22,7 @@ public class Splash extends Activity {
 		Thread splash = new Thread() {
 			public void run() {
 				try {
-					sleep(1);
+					sleep(3000);
 					Intent landscape = new Intent(Splash.this, IndexPage.class);
 					startActivity(landscape);
 			//		mp.stop();
