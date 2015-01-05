@@ -11,6 +11,7 @@ import android.widget.Button;
 import com.jmatharu.gurbanigyan.ContactMe;
 import com.jmatharu.gurbanigyan.IndexPage;
 import com.jmatharu.gurbanigyan.R;
+import com.jmatharu.gurbanigyan.RehrasSahib;
 
 public class ReadGurbaniList extends Activity {
 
@@ -77,6 +78,19 @@ public class ReadGurbaniList extends Activity {
 				// TODO Auto-generated method stub
 				Intent activityIntent = new Intent(ReadGurbaniList.this,
 						AnandSahib.class);
+				ReadGurbaniList.this.startActivity(activityIntent);
+				finish();
+			}
+		});
+		
+		Button bRead6 = (Button) findViewById(R.id.bRehrasSahib);
+		bRead6.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent activityIntent = new Intent(ReadGurbaniList.this,
+						RehrasSahib.class);
 				ReadGurbaniList.this.startActivity(activityIntent);
 				finish();
 			}
