@@ -43,7 +43,7 @@ public class IndexPage extends Activity {
 			}
 		});
 
-		Button bQuiz = (Button) findViewById(R.id.button3);
+/*		Button bQuiz = (Button) findViewById(R.id.button3);
 		bQuiz.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -53,7 +53,7 @@ public class IndexPage extends Activity {
 				IndexPage.this.startActivity(activityIntent);
 				finish();
 			}
-		});
+		});*/
 		Button bRead = (Button) findViewById(R.id.button4);
 		bRead.setOnClickListener(new View.OnClickListener() {
 
