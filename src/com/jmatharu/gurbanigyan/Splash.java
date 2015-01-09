@@ -23,8 +23,8 @@ public class Splash extends Activity {
 			public void run() {
 				try {
 					sleep(1);
-					Intent landscape = new Intent(Splash.this, IndexPage.class);
-					startActivity(landscape);
+					Intent splash = new Intent(Splash.this, IndexPage.class);
+					startActivity(splash);
 			//		mp.stop();
 					 finish();
 				} catch (InterruptedException e) {

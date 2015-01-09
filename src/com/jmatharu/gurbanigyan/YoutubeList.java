@@ -39,7 +39,6 @@ public class YoutubeList extends Activity {
 						Youtube1.class);
 				activityIntent.putExtra("force_fullscreen", true);
 				YoutubeList.this.startActivity(activityIntent);
-
 				finish();
 			}
 		});
